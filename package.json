@@ -1,0 +1,26 @@
+{
+  "name": "chat_websocket",
+  "version": "0.0.1",
+  "description": "try to write chat",
+  "main": "main.js",
+  "scripts": {
+    "test": "node serv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lienusowl/chat_websocket.git"
+  },
+  "keywords": [
+    "chat",
+    "websocket"
+  ],
+  "author": "lienusowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lienusowl/chat_websocket/issues"
+  },
+  "homepage": "https://github.com/lienusowl/chat_websocket#readme",
+  "dependencies": {
+    "ws": "8.3.0"
+  }
+}

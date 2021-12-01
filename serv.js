@@ -3,13 +3,15 @@ const http = require("http");
 const WebSocket = require("ws");
 const index = fs.readFileSync("./index.html", "utf8");
 
+
+
 const server = http.createServer((req, res) => {
   res.writeHead(200);
   res.end(index);
 });
 
-server.listen(3000, () => {
-  console.log("слушаем порт 3000");
+server.listen(4000, () => {
+  console.log("слушаем порт 4000");
 });
 
 const ws = new WebSocket.Server({ server });
@@ -29,7 +31,7 @@ ws.on("connection", (connection, req) => {
       client.send(message, { binary: false });
     }
   });
-  
+
   connection.on("close", () => {
     console.log(`отключились от ${ip}`);
   });

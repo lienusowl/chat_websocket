@@ -1,0 +1,14 @@
+#chat div {
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#chat div:nth-child(2n) {
+    background: #eee;
+}
+
+#chat p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}

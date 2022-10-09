@@ -2,9 +2,9 @@
   "name": "chat_websocket",
   "version": "0.0.1",
   "description": "try to write chat",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "test": "node serv.js"
+    "test": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/lienusowl/chat_websocket#readme",
   "dependencies": {
-    "ws": "8.3.0"
+    "ws": "^8.8.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
   }
 }

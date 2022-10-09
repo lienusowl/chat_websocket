@@ -10,8 +10,8 @@ const server = http.createServer((req, res) => {
   res.end(index);
 });
 
-server.listen(4000, () => {
-  console.log("слушаем порт 4000");
+server.listen(56112, () => {
+  console.log("слушаем порт 56112");
 });
 
 const ws = new WebSocket.Server({ server });
